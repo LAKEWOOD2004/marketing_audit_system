@@ -1,0 +1,44 @@
+{
+    "document_type": "business_config",
+    "activity_id": "PROMO_2024_001",
+    "activity_name": "2024春节大促活动",
+    "config_data": [
+        {
+            "config_id": "CFG_001",
+            "config_type": "coupon_config",
+            "activity_id": "PROMO_2024_001",
+            "优惠券名称": "春节新人红包",
+            "优惠券金额": 600,
+            "发放对象": "全部用户",
+            "每月领取限制": 5,
+            "有效期天数": 60,
+            "最低消费门槛": 100,
+            "叠加使用": "是"
+        },
+        {
+            "config_id": "CFG_002",
+            "config_type": "budget_config",
+            "activity_id": "PROMO_2024_001",
+            "活动预算": 1500000,
+            "已使用预算": 800000,
+            "预算审批人": "张经理",
+            "审批级别": "部门经理"
+        },
+        {
+            "config_id": "CFG_003",
+            "config_type": "scope_config",
+            "activity_id": "PROMO_2024_001",
+            "活动渠道": ["APP", "小程序", "官网", "线下门店"],
+            "目标用户群": "全体用户",
+            "活动时间": "2024-01-20 至 2024-02-20"
+        },
+        {
+            "config_id": "CFG_004",
+            "config_type": "rule_config",
+            "activity_id": "PROMO_2024_001",
+            "规则公示时间": "活动开始前12小时",
+            "隐性门槛": "满200可用",
+            "退款处理": "优惠券不返还"
+        }
+    ]
+}

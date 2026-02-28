@@ -1,0 +1,28 @@
+# 营销审计多智能体系统 - 依赖包
+
+# 核心依赖
+python>=3.8
+
+# 文档解析
+python-docx>=0.8.11
+openpyxl>=3.1.2
+pandas>=2.0.0
+xlrd>=2.0.1
+
+# 大模型接口
+openai>=1.0.0
+zhipuai>=2.0.0
+
+# 向量数据库
+chromadb>=0.4.0
+
+# 数据处理
+numpy>=1.24.0
+
+# 可选依赖（用于高级功能）
+# langchain>=0.1.0
+# sentence-transformers>=2.2.0
+
+# 开发依赖
+# pytest>=7.0.0
+# black>=23.0.0
